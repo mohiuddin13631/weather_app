@@ -43,7 +43,7 @@ class _HomePageWeatherState extends State<HomePageWeather> with SingleTickerProv
     // continue accessing the position of the device.
     position = await Geolocator.getCurrentPosition();
     print("position: ${position!.latitude} position2: ${position!.longitude}");
-    weatherApiCall();
+    weatherApiCall();//todo: api called
     // return await Geolocator.getCurrentPosition();
   }
   Position? position;

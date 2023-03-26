@@ -2,7 +2,6 @@
 import 'package:api_integration/view/HomePageWeather.dart';
 import 'package:flutter/material.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
