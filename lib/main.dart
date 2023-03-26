@@ -1,8 +1,7 @@
-import 'package:api_integration/ApiWithoutModel/HomePageWithoutModel.dart';
+
+import 'package:api_integration/view/HomePageWeather.dart';
 import 'package:flutter/material.dart';
 
-import 'ComplexApi/HomePage.dart';
-import 'Simple_api/HomePageSimpleApi.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePageWithoutModel(),
+      home: HomePageWeather(),
     );
   }
 }
